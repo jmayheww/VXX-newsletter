@@ -33,6 +33,7 @@
 
         }
 
+
         .image-table td {
             padding: 5px;
             /* Reduced padding */
@@ -85,11 +86,11 @@
 
 
         <tr>
-            <td bgcolor="#000" style="padding: 20px; text-align: center;">
+            <td bgcolor="#000" style="padding: 10px; text-align: center;">
                 <img class="header-image"
-                    src="https://res.cloudinary.com/daq5feofb/image/upload/c_fill,h_100,w_604/b_rgb:000000,bo_0px_solid_rgb:000000,y_-0.5/v1699346041/vxx_logo_tngzmn.jpg"
-                    alt="VXX Logo" style="display: block; margin-bottom: 10px;" />
-                <h1 style="color: green; font-size: 30px; font-weight: bold; margin: 0;">VXX: Cycling Expeditions</h1>
+                    src="https://res.cloudinary.com/daq5feofb/image/upload/v1699425148/vxx_logo_j5dwhs.jpg"
+                    alt="VXX Logo" style="display: block; margin-bottom: 10px; max-width: 100%;" />
+
             </td>
         </tr>
 
@@ -216,34 +217,51 @@
                     Hear What Our Riders Have to Say
                 </h2>
                 <table align="center" border="0" cellpadding="0" cellspacing="0"
-                    style="max-width: 600px; margin: auto;">
+                    style="max-width: 600px; table-layout: fixed; width: 600px; margin: auto;">
                     <tr>
-                        <td style="padding: 10px; width: 33%;">
-                            <p
-                                style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; background-color: #f2f2f2; padding: 15px; border-radius: 5px; min-height: 150px; display: flex; align-items: center; justify-content: center;">
+                        <!-- Testimonial 1 -->
+                        <td
+                            style="background-color: #f2f2f2; border-radius: 5px; vertical-align: middle; text-align: center; padding: 10px; width: 33.333%; height: 200px;">
+                            <p style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; margin: 0;">
                                 "The VXX expedition was a life-changing experience! The views were breathtaking and the
                                 camaraderie was unforgettable." - Jane D.
                             </p>
                         </td>
-                        <td style="padding: 10px; width: 33%;">
-                            <p
-                                style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; background-color: #f2f2f2; padding: 15px; border-radius: 5px; min-height: 150px; display: flex; align-items: center; justify-content: center;">
+
+                        <!-- Spacer -->
+                        <td style="width: 10px;"></td> <!-- Adjust width for desired spacing -->
+
+                        <!-- Testimonial 2 -->
+                        <td
+                            style="background-color: #f2f2f2; border-radius: 5px; vertical-align: middle; text-align: center; padding: 10px; width: 33.333%; height: 200px;">
+                            <p style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; margin: 0;">
                                 "Every day brought a new adventure. I can't wait to sign up for the next ride!" - Carlos
                                 M.
                             </p>
                         </td>
-                        <td style="padding: 10px; width: 33%;">
-                            <p
-                                style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; background-color: #f2f2f2; padding: 15px; border-radius: 5px; min-height: 150px; display: flex; align-items: center; justify-content: center;">
+
+                        <!-- Spacer -->
+                        <td style="width: 10px;"></td> <!-- Adjust width for desired spacing -->
+
+                        <!-- Testimonial 3 -->
+                        <td
+                            style="background-color: #f2f2f2; border-radius: 5px; vertical-align: middle; text-align: center; padding: 10px; width: 33.333%; height: 200px;">
+                            <p style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; margin: 0;">
                                 "I was blown away by the beauty of Vietnam. The VXX team did a great job of planning the
                                 route and making sure we were safe." - John S.
                             </p>
                         </td>
                     </tr>
-                    <!-- Add more rows as needed -->
                 </table>
             </td>
         </tr>
+
+
+
+
+
+
+
 
 
         <!-- Footer -->
@@ -274,17 +292,11 @@
                     <tr>
                         <td align="center" style="padding-bottom: 10px;">
                             <p style="font-size: 14px; font-family: Arial, sans-serif; color: #333;">
-                                Follow us on social media!<br><br>
-                                <a href="https://www.facebook.com/vxx.vn" target="_blank">
-                                    <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699357010/Facebook_Logo__2019_.png_h2zn3h.webp"
-                                        alt="Facebook"
-                                        style="max-width: 30px; margin-right: 5px; display: inline-block;" />
-                                </a>
-                                <a href="https://www.instagram.com/vxx.vn/" target="_blank">
-                                    <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699354731/strava_logo_icon_170697_qorjlq.png"
-                                        alt="Strava"
-                                        style="max-width: 30px; margin-right: 5px; display: inline-block;" />
-                                </a>
+                                Follow us on social media!<br>
+                                <a href="https://www.facebook.com/vxx.vn" target="_blank"
+                                    style="text-decoration: none; color: #008000;">Facebook</a> |
+                                <a href="https://www.strava.com/clubs/vxx" target="_blank"
+                                    style="text-decoration: none; color: #008000;">Strava</a>
                             </p>
                         </td>
                     </tr>
