@@ -7,317 +7,308 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
     <title>VXX Newsletter</title>
     <style type="text/css">
-        body,
-        table,
-        td,
-        p {
-            margin: 0;
-            padding: 0;
-        }
+        @media only screen and (max-width: 640px) {
+            .testimonial-row td {
+                display: block;
+                width: 100% !important;
+                max-width: none !important;
+                /* Remove max-width restriction */
+                height: auto !important;
+                box-sizing: border-box;
+                /* Ensure padding is included in the width calculation */
+                padding: 10px;
+                /* Add padding */
+                font-size: 14px !important;
+                /* Adjust font size if necessary */
+            }
 
-        img {
-            border: 0;
-            display: block;
-        }
+            .testimonial-table {
+                width: 100%;
+                /* Ensure the table width is 100% */
+                max-width: none !important;
+                /* Remove max-width restriction */
+            }
 
-        .email-container {
-            width: 100%;
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: white;
-        }
-
-        .image-table {
-            width: 50%;
-            margin: 0 auto;
-
-        }
-
-
-        .image-table td {
-            padding: 5px;
-            /* Reduced padding */
-            text-align: center;
-        }
-
-        .image-table img {
-            width: auto;
-            max-width: 180px;
-            height: auto;
-            display: inline-block;
-            vertical-align: middle;
-        }
-
-        .footer-links a {
-            color: #0000EE;
-            text-decoration: none;
-            margin: 0 5px;
-        }
-
-        .footer-links {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .header-image {
-            width: 100%;
-            height: auto;
-            border: none;
-            outline: none;
-            text-decoration: none;
-            -ms-interpolation-mode: bicubic;
+            .view-in-browser {
+                font-size: 10px;
+                /* Reduce font size for mobile */
+                display: block;
+                /* Make it block to use full width */
+                text-align: center;
+                /* Center align the text */
+                padding: 0;
+                /* Add some padding for better touch interaction */
+                line-height: normal;
+                /* Adjust line height if needed */
+            }
         }
     </style>
 </head>
 
-<body style="margin: 0; padding: 0; background-color: white;">
-    <table class="email-container" bgcolor="white" cellpadding="0" cellspacing="0" border="0" align="center">
-        <!-- Header -->
+<body width="100%" style="margin: 0; padding: 0; background-color: white; font-family: Arial, sans-serif;">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="responsive-table">
         <tr>
-            <td>
-                <p style="font-size: 14px; font-family: Arial, sans-serif; text-align: center;">
-                    Don't miss any announcements from VXX! <a href="https://vxx.vn/newsletter/2021-11-01/"
-                        target="_blank" style="color: green; text-decoration: none;">View in your browser</a>.
-                </p>
-            </td>
-        </tr>
+            <td align="center" style="padding: 0; margin: 0;">
 
-
-
-
-        <tr>
-            <td bgcolor="#000" style="padding: 10px; text-align: center;">
-                <img class="header-image"
-                    src="https://res.cloudinary.com/daq5feofb/image/upload/v1699425148/vxx_logo_j5dwhs.jpg"
-                    alt="VXX Logo" style="display: block; margin-bottom: 10px; max-width: 100%;" />
-
-            </td>
-        </tr>
-
-        <!-- Welcome Message -->
-        <tr>
-            <td bgcolor="#fff" style="padding: 20px; text-align: center;">
-                <h2 style="color: #333; font-size: 20px; font-family: Arial, sans-serif;">
-                    Happy November!
-                </h2>
-                <p style="color: #333333; font-size: 16px; font-family: Arial, sans-serif; width: 80%; margin: auto;">
-                    We hope you're doing well and staying fit! In this edition of the VXX Newsletter, we have more
-                    exclusive highlights from our triumphant 2023 expedition.
-                </p>
-                <br>
-                <p style="color: #333333; font-size: 16px; font-family: Arial, sans-serif; width: 80%; margin: auto;">
-                    Furthemore, we have a special announcement about the upcoming <strong>2024 route</strong>, so be
-                    sure to read all the way to the end! As always, thank you for your continued support!
-                </p>
-            </td>
-        </tr>
-
-        <!-- Section Border -->
-        <tr>
-            <td style="border-bottom: 1px solid #ccc; opacity: 0.5;"></td>
-        </tr>
-
-        <!-- 2023 Highlights -->
-        <!-- Image Gallery -->
-        <tr>
-            <td bgcolor="#fff" style="padding: 20px; text-align: center;">
-                <h3 style="color: #333; font-size: 18px; font-family: Arial, sans-serif;">2023 VXX Highlights</h3>
-                <!-- Image table -->
-                <table class="image-table" cellpadding="0" cellspacing="0" border="0" align="center">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="responsive-table"
+                    style="background-color: #ffffff; border: 1px solid #f2f2f2; border-radius: 4px; box-shadow: 0 0 10px #f2f2f2; max-width: 640px; margin: auto;">
                     <tr>
-                        <!-- Adjust the padding if necessary -->
-                        <td style="padding: 5px;">
-                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353172/guys_z6dkwu.jpg"
-                                alt="team" style="max-width: 180px;" />
-                        </td>
-                        <td style="padding: 5px;">
-                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353161/andrewsage_uu94w3.jpg"
-                                alt="Contemplative Andrew" style="max-width: 180px;" />
-                        </td>
-                        <td style="padding: 5px;">
-                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353157/guysagain_mfosbi.jpg"
-                                alt="Team after subset climb" style="max-width: 180px;" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Adjust the padding if necessary -->
-                        <td style="padding: 5px;">
-                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353174/andrewjames_or9ywf.jpg"
-                                alt="andrew james" style="max-width: 180px;" />
-                        </td>
-                        <td style="padding: 5px;">
-                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353170/nickandkid_izte6y.jpg"
-                                alt="cool man nick" style="max-width: 180px;" />
-                        </td>
-                        <td style="padding: 5px;">
-                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353168/stoicjames_edvtut.jpg"
-                                alt="stoic james" style="max-width: 180px;" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <!-- Adjust the padding if necessary -->
-                        <td style="padding: 5px;">
-                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353163/strongnick_wkf4w3.jpg"
-                                alt="nick hoisting the bike" style="max-width: 180px;" />
-                        </td>
-                        <td style="padding: 5px;">
-                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353158/fastjames_zdpb5q.jpg"
-                                alt="fast james" style="max-width: 180px;" />
-                        </td>
-                        <td style="padding: 5px;">
-                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353931/323553083_5967359463284398_4746613276722688363_n_lrqla2.jpg"
-                                alt="gong josh" style="max-width: 180px;" />
+                        <td bgcolor="#fff" align="center">
+                            <p class="view-in-browser"
+                                style="font-size: 12px; font-family: Arial, sans-serif; text-align: center;">
+                                Having trouble viewing this email?
+                                <a href="https://vxx.vn/newsletter/2021-11-01/" target="_blank"
+                                    style="color: green; text-decoration: none;">View in your browser</a>
+                            </p>
                         </td>
                     </tr>
 
-                </table>
-            </td>
-        </tr>
-
-
-        <!-- Section Border -->
-        <tr>
-            <td style="border-bottom: 2px solid #ccc; margin: 20px 0;"></td>
-        </tr>
-
-        <!-- Special Announcement -->
-        <tr>
-            <td bgcolor="#fff" style="padding: 20px; text-align: center;">
-                <h2 style="color: #008000; font-size: 24px; font-family: Arial, sans-serif; margin-bottom: 20px;">
-                    Exciting News: Registration for the 2024 Ride Is Now Open!
-                </h2>
-                <p
-                    style="color: #333; font-size: 16px; font-family: Arial, sans-serif; margin-bottom: 10px; padding-bottom: 10px; width: 80%; margin: auto;">
-                    The adventure of a lifetime awaits as we set course for the Northern frontier of Vietnam. Discover
-                    the majestic mountains of Ha Giang, the serene beauty of Cao Bang, and the rich history of Dien Bien
-                    Phu.
-                </p>
-                <p
-                    style="color: #333; font-size: 16px; font-family: Arial, sans-serif; margin-bottom: 10px; width: 80%; margin: auto;">
-                    Embrace the spirit of exploration in a 45-day journey that promises to be as enriching as it is
-                    exhilarating. With limited spots available, don't miss your chance to be part of VXX history.
-                    Reserve your spot today!
-                </p>
-                <a href="registration_link_here" target="_blank"
-                    style="background-color: #008000; color: #ffffff; padding: 15px 30px; font-size: 18px; font-family: Arial, sans-serif; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 20px; transition: background-color 0.3s ease;">
-                    Register Here &raquo;
-                </a>
-            </td>
-        </tr>
-
-        <!-- Section Border -->
-        <tr>
-            <td style="border-bottom: 2px solid #ccc; margin: 20px 0;"></td>
-        </tr>
-        <!-- Testimonials Section -->
-        <tr>
-            <td bgcolor="#fff" style="padding: 20px; text-align: center;">
-                <h2 style="color: #333; font-size: 20px; font-family: Arial, sans-serif; margin-bottom: 20px;">
-                    Hear What Our Riders Have to Say
-                </h2>
-                <table align="center" border="0" cellpadding="0" cellspacing="0"
-                    style="max-width: 600px; width: 100%; margin: auto;">
+                    <!-- Header -->
                     <tr>
-                        <!-- Testimonial 1 -->
-                        <td style="width: 33%; padding: 5px;">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                style="width: 100%; background-color: #f2f2f2; border-radius: 5px;">
+                        <td align="center" style="padding: 10px; background-color: #000;">
+                            <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699425148/vxx_logo_j5dwhs.jpg"
+                                alt="VXX Logo" width="100%" style="max-width: 640px; height: auto; display: block;" />
+                        </td>
+                    </tr>
+
+                    <!-- Welcome Message -->
+                    <tr>
+                        <td bgcolor="#fff" style="padding: 20px; text-align: center;">
+                            <h2 style="color: #333; font-size: 24px;">Happy November!</h2>
+                            <p style="color: #333; font-size: 16px;">
+                                We hope you're doing well and staying fit! In this edition of the VXX Newsletter, we
+                                have more
+                                exclusive highlights from our triumphant 2023 expedition.
+                            </p>
+                            <p style="color: #333; font-size: 16px;">
+                                Furthermore, we have a special announcement about the upcoming <strong>2024
+                                    route</strong>, so be
+                                sure to read all the way to the end! As always, thank you for your continued support!
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Section Border -->
+                    <tr>
+                        <td style="border-bottom: 1px solid #ccc; opacity: 0.5;"></td>
+                    </tr>
+
+                    <!-- 2023 Highlights -->
+
+                    <!-- Image Gallery -->
+                    <tr>
+                        <td bgcolor="#fff" style="padding: 20px; text-align: center;">
+                            <h3 style="color: #333; font-size: 18px;">2023 VXX Highlights</h3>
+                            <table cellpadding="0" cellspacing="0" border="0" align="center"
+                                style="width: 100%; max-width: 600px;">
+                                <!-- Row 1 -->
                                 <tr>
-                                    <td
-                                        style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; height: 180px; vertical-align: middle; text-align: center; padding: 15px;">
-                                        "The VXX expedition was a life-changing experience! The views were breathtaking
-                                        and the camaraderie was unforgettable." - Jane D.
+                                    <td align="center" style="padding: 5px;">
+                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353172/guys_z6dkwu.jpg"
+                                            alt="team"
+                                            style="width: 100%; height: auto; display: block; max-width: 180px;" />
+                                    </td>
+                                    <td align="center" style="padding: 5px;">
+                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353161/andrewsage_uu94w3.jpg"
+                                            alt="Contemplative Andrew"
+                                            style="width: 100%; height: auto; display: block; max-width: 180px;" />
+                                    </td>
+                                    <td align="center" style="padding: 5px;">
+                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353157/guysagain_mfosbi.jpg"
+                                            alt="Team after subset climb"
+                                            style="width: 100%; height: auto; display: block; max-width: 180px;" />
                                     </td>
                                 </tr>
-                            </table>
-                        </td>
-                        <!-- Testimonial 2 -->
-                        <td style="width: 33%; padding: 5px;">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                style="width: 100%; background-color: #f2f2f2; border-radius: 5px;">
+                                <!-- Row 2 -->
                                 <tr>
-                                    <td
-                                        style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; height: 180px; vertical-align: middle; text-align: center; padding: 15px;">
-                                        "Every day brought a new adventure. I can't wait to sign up for the next ride!"
-                                        - Carlos M.
+                                    <td align="center" style="padding: 5px;">
+                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353174/andrewjames_or9ywf.jpg"
+                                            alt="Andrew James"
+                                            style="width: 100%; height: auto; display: block; max-width: 180px;" />
+                                    </td>
+                                    <td align="center" style="padding: 5px;">
+                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353170/nickandkid_izte6y.jpg"
+                                            alt="Cool Man Nick"
+                                            style="width: 100%; height: auto; display: block; max-width: 180px;" />
+                                    </td>
+                                    <td align="center" style="padding: 5px;">
+                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353168/stoicjames_edvtut.jpg"
+                                            alt="Stoic James"
+                                            style="width: 100%; height: auto; display: block; max-width: 180px;" />
                                     </td>
                                 </tr>
-                            </table>
-                        </td>
-                        <!-- Testimonial 3 -->
-                        <td style="width: 33%; padding: 5px;">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0"
-                                style="width: 100%; background-color: #f2f2f2; border-radius: 5px;">
+                                <!-- Row 3 -->
                                 <tr>
-                                    <td
-                                        style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; height: 180px; vertical-align: middle; text-align: center; padding: 15px;">
-                                        "I was blown away by the beauty of Vietnam. The VXX team did a great job of
-                                        planning the route and making sure we were safe." - John S.
+                                    <td align="center" style="padding: 5px;">
+                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353163/strongnick_wkf4w3.jpg"
+                                            alt="Nick Hoisting the Bike"
+                                            style="width: 100%; height: auto; display: block; max-width: 180px;" />
+                                    </td>
+                                    <td align="center" style="padding: 5px;">
+                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353158/fastjames_zdpb5q.jpg"
+                                            alt="Fast James"
+                                            style="width: 100%; height: auto; display: block; max-width: 180px;" />
+                                    </td>
+                                    <td align="center" style="padding: 5px;">
+                                        <img src="https://res.cloudinary.com/daq5feofb/image/upload/v1699353931/323553083_5967359463284398_4746613276722688363_n_lrqla2.jpg"
+                                            alt="Gong Josh"
+                                            style="width: 100%; height: auto; display: block; max-width: 180px;" />
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                </table>
-            </td>
-        </tr>
 
 
 
-        <!-- Footer -->
-        <tr>
-            <td bgcolor="#f7f7f7" class="footer-links" style="padding: 20px; text-align: center;">
-                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <!-- Section Border -->
                     <tr>
-                        <td align="center" style="padding-bottom: 10px;">
-                            <!-- Company Name and Website -->
-                            <p style="font-size: 16px; font-family: Arial, sans-serif; color: #333;">
-                                <a href="https://vxx.vn/" target="_blank"
-                                    style="color: #008000; text-decoration: none;">
-                                    <strong>Vong Xe Xanh (VXX) Cycling Expeditions</strong>
-                                </a>
+                        <td style="border-bottom: 1px solid #ccc; opacity: 0.5;"></td>
+                    </tr>
+
+                    <!-- Special Announcement -->
+                    <tr>
+                        <td bgcolor="#fff" style="padding: 20px; text-align: center;">
+                            <h2
+                                style="color: #008000; font-size: 24px; font-family: Arial, sans-serif; margin-bottom: 20px; text-align: center">
+                                Exciting News: Registration for the 2024 Ride Is Now Open!
+                            </h2>
+                            <p
+                                style="color: #333; font-size: 16px; font-family: Arial, sans-serif; margin-bottom: 10px; padding-bottom: 10px; width: 90%; margin: auto;">
+                                The adventure of a lifetime awaits as we set course for the Northern frontier of
+                                Vietnam. Discover
+                                the majestic mountains of Ha Giang, the serene beauty of Cao Bang, and the rich history
+                                of Dien Bien
+                                Phu.
                             </p>
+                            <p
+                                style="color: #333; font-size: 16px; font-family: Arial, sans-serif; margin-bottom: 10px; width: 90%; margin: auto;">
+                                Embrace the spirit of exploration in a 45-day journey that promises to be as enriching
+                                as it is
+                                exhilarating. With limited spots available, don't miss your chance to be part of VXX
+                                history.
+                                Reserve your spot today!
+                            </p>
+                            <a href="registration_link_here" target="_blank"
+                                style="background-color: #008000; color: #ffffff; padding: 15px 30px; font-size: 18px; font-family: Arial, sans-serif; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 20px; transition: background-color 0.3s ease;">
+                                Register Here &raquo;
+                            </a>
                         </td>
                     </tr>
+
+                    <!-- Section Border -->
                     <tr>
-                        <td align="center" style="padding-bottom: 10px;">
-                            <!-- Contact Information -->
-                            <p style="font-size: 14px; font-family: Arial, sans-serif; color: #333;">
-                                Explore with us and experience the journey of a lifetime!<br>
-                                Email: contact@vxx.vn | Phone: (123) 456-7890
-                            </p>
+                        <td style="border-bottom: 1px solid #ccc; opacity: 0.5;"></td>
+                    </tr>
+                    <!-- Testimonials Section -->
+                    <tr>
+                        <td bgcolor="#fff" style="padding: 20px; text-align: center;">
+                            <h2
+                                style="color: #333; font-size: 22px; font-family: Arial, sans-serif; margin-bottom: 20px;">
+                                Hear What Our Riders Have to Say
+                            </h2>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                style="max-width: 600px; width: 100%; margin: auto;">
+                                <tr class="testimonial-row">
+                                    <!-- Testimonial 1 -->
+                                    <td style="width: 33%; padding: 5px; max-width: 200px;">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                            style="width: 100%; background-color: #f2f2f2; border-radius: 5px;">
+                                            <tr>
+                                                <td
+                                                    style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; height: 180px; vertical-align: middle; text-align: center; padding: 15px;">
+                                                    "The VXX expedition was a life-changing experience! The views were
+                                                    breathtaking and the camaraderie was unforgettable." - Jane D.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!-- Testimonial 2 -->
+                                    <td style="width: 33%; padding: 5px; max-width: 200px;">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                            style="width: 100%; background-color: #f2f2f2; border-radius: 5px;">
+                                            <tr>
+                                                <td
+                                                    style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; height: 180px; vertical-align: middle; text-align: center; padding: 15px;">
+                                                    "Every day brought a new adventure. I can't wait to sign up for the
+                                                    next ride!" - Carlos M.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!-- Testimonial 3 -->
+                                    <td style="width: 33%; padding: 5px; max-width: 200px;">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                            style="width: 100%; background-color: #f2f2f2; border-radius: 5px;">
+                                            <tr>
+                                                <td
+                                                    style="font-style: italic; font-size: 16px; font-family: Arial, sans-serif; height: 180px; vertical-align: middle; text-align: center; padding: 15px;">
+                                                    "I was blown away by the beauty of Vietnam. The VXX team did a great
+                                                    job of planning the route and making sure we were safe." - John S.
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
-                    <!-- Social Media Links -->
+
+
+                    <!-- Footer -->
                     <tr>
-                        <td align="center" style="padding-bottom: 10px;">
-                            <p style="font-size: 14px; font-family: Arial, sans-serif; color: #333;">
-                                Follow us on social media!<br>
-                                <a href="https://www.facebook.com/vxx.vn" target="_blank"
-                                    style="text-decoration: none; color: #008000;">Facebook</a> |
-                                <a href="https://www.strava.com/clubs/vxx" target="_blank"
-                                    style="text-decoration: none; color: #008000;">Strava</a>
-                            </p>
-                        </td>
-                    </tr>
-                    <!-- Legal Information and Unsubscribe Link -->
-                    <tr>
-                        <td align="center" style="padding-top: 10px;">
-                            <p style="font-size: 12px; font-family: Arial, sans-serif; color: #666;">
-                                &copy; 2021 VXX Cycling Expeditions. All rights reserved.<br>
-                                <a href="https://vxx.vn/privacy-policy/" target="_blank"
-                                    style="color: #008000; text-decoration: none;">Privacy Policy</a> | <a
-                                    href="https://vxx.vn/terms-and-conditions/" target="_blank"
-                                    style="color: #008000; text-decoration: none;">Terms & Conditions</a> | <a
-                                    href="https://vxx.vn/unsubscribe/" target="_blank"
-                                    style="color: #008000; text-decoration: none;">Unsubscribe</a>
-                            </p>
+                        <td bgcolor="#f7f7f7" style="padding: 15px; text-align: center;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                style="max-width: 640px; margin: auto;">
+                                <tr>
+                                    <td align="center">
+                                        <!-- Company Name and Website -->
+                                        <p
+                                            style="font-size: 14px; font-family: Arial, sans-serif; color: #333; margin-bottom: 10px;">
+                                            <a href="https://vxx.vn/" target="_blank"
+                                                style="color: #008000; text-decoration: none;">
+                                                <strong>Vong Xe Xanh (VXX) Cycling Expeditions</strong>
+                                            </a>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <!-- Contact Information and Social Media Links -->
+                                        <p
+                                            style="font-size: 14px; font-family: Arial, sans-serif; color: #333; margin-bottom: 10px;">
+                                            Join us for an unforgettable journey!<br>
+                                            Email: contact@vxx.vn | Phone: (123) 456-7890<br>
+                                            Follow us on <a href="https://www.facebook.com/vxx.vn" target="_blank"
+                                                style="color: #008000; text-decoration: none;">Facebook</a> and
+                                            <a href="https://www.strava.com/clubs/vxx" target="_blank"
+                                                style="color: #008000; text-decoration: none;">Strava</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <!-- Legal Information and Unsubscribe Link -->
+                                        <p
+                                            style="font-size: 12px; font-family: Arial, sans-serif; color: #666; margin-top: 10px;">
+                                            &copy; 2021 VXX Cycling Expeditions. All rights reserved.<br>
+                                            <a href="https://vxx.vn/privacy-policy/" target="_blank"
+                                                style="color: #008000; text-decoration: none;">Privacy Policy</a> |
+                                            <a href="https://vxx.vn/terms-and-conditions/" target="_blank"
+                                                style="color: #008000; text-decoration: none;">Terms & Conditions</a> |
+                                            <a href="https://vxx.vn/unsubscribe/" target="_blank"
+                                                style="color: #008000; text-decoration: none;">Unsubscribe</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
                 </table>
             </td>
         </tr>
     </table>
+
 </body>
 
 </html>
